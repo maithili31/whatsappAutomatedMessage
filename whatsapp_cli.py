@@ -6,6 +6,7 @@ from datetime import datetime
 
 pyautogui.FAILSAFE = True
 
+# Add .csv file to send messages in bulk in future
 
 def send_messages(contact, messages, wait_time):
     pywhatkit.sendwhatmsg_instantly(
